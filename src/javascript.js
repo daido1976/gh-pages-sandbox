@@ -4,7 +4,7 @@ let test = document.getElementById("hoge");
 // moves over the unordered list
 test.addEventListener("mouseenter", function( event ) {   
   // highlight the mouseenter target
-  event.target.style.color = "blue";
+  event.target.style.color = "white";
 
   // reset the color after a short delay
   setTimeout(function() {
