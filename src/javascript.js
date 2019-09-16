@@ -1,3 +1,4 @@
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event#JavaScript
 let element = document.getElementById("hoge");
 
 // This handler will be executed only once when the cursor
