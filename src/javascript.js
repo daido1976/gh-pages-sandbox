@@ -1,8 +1,8 @@
-let test = document.getElementById("hoge");
+let element = document.getElementById("hoge");
   
 // This handler will be executed only once when the cursor
 // moves over the unordered list
-test.addEventListener("mouseenter", event => {   
+element.addEventListener("mouseenter", event => {   
   // highlight the mouseenter target
   event.target.style.color = "red";
 
@@ -14,7 +14,7 @@ test.addEventListener("mouseenter", event => {
 
 // This handler will be executed every time the cursor
 // is moved over a different list item
-test.addEventListener("click", event => {   
+element.addEventListener("click", event => {   
   // highlight the mouseover target
   event.target.style.color = "green";
 
