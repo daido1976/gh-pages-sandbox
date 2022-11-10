@@ -2,4 +2,5 @@
 
 For project site.
 
-ref. https://pages.github.com/
+- https://pages.github.com/
+- https://docs.github.com/en/pages
